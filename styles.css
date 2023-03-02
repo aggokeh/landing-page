@@ -1,0 +1,237 @@
+*{
+  background-color: rgb(32, 32, 32);
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+}
+
+.navbar{
+  padding: 10px;
+  background-color: rgb(9, 9, 141);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -1px 14px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 14px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 14px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-left img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-left img:hover{
+  transform: rotate(360deg);
+  transition: all 1.0s;
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.nav-head{
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  font-family: 'Mynerve', cursive;
+  background-color: transparent;
+  margin-left: 1rem;
+  
+}
+
+.nav-head:hover{
+  text-shadow: 2px 2px 1px black;
+}
+
+.navbar-left,
+.navbar-right{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.nav-about,
+.nav-register,
+.nav-login{
+  display: flex;
+  align-items: center;
+  background-color: rgb(9, 9, 141);
+  font-family: 'Mynerve', cursive;
+}
+
+.navbar-right>*{
+  padding: 10px;
+}
+
+.navbar-right ion-icon,
+.navbar-right div{
+  background-color: rgb(9, 9, 141);
+}
+
+.navbar-right div:hover{
+  text-shadow: 2px 2px 1px black;
+}
+
+
+.welcome{
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  align-items:center; 
+}
+
+.welcome-left, .welcome-right{
+  width: 50%;
+}
+
+.welcome-right img{
+  max-width: 70%;
+  border-radius: 30%;
+  box-shadow: 10px 10px 5px 0px rgba(5,0,232,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(5,0,232,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(5,0,232,0.75);
+}
+
+.welcome-left p,
+.welcome-left h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Mynerve', cursive;
+}
+
+.welcome-left p,
+.welcome-left h1:hover{
+  text-shadow: 2px 2px 1px rgb(0, 2, 110);
+}
+
+.welcome-left{
+  text-align: center;
+}
+
+.welcome-left button{
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: #2566f3;
+  color:antiquewhite;
+  font-family: 'Mynerve', cursive;
+}
+
+.middle-container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-container img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid rgb(0, 2, 110);
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+  box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -webkit-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -moz-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+
+}
+
+.middle{
+  margin-top: 10rem;
+}
+
+.middle h1{
+  text-align: center;
+  color: antiquewhite;
+  font-family: 'Mynerve', cursive;
+}
+
+.middle h1:hover{
+  text-shadow: 2px 2px 1px rgb(0, 2, 110);
+}
+
+.middle-container p{
+  font-family: 'Mynerve', cursive;
+  font-size: 18px;
+  color: antiquewhite;
+
+}
+.middle-container p:hover{
+  text-shadow: 2px 2px 1px rgb(0, 2, 110);
+}
+
+.quotelayer{
+  display: flex;
+  flex-direction: column;
+  background-color: #003097;
+  padding: 0 200px;
+  border-radius: 100px;
+  max-width: 500px;
+  margin-left: 150px;
+
+}
+
+.quotelayer:hover{
+  box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -webkit-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -moz-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+}
+
+.quotelayer p{
+  background-color: #003097;
+  color: antiquewhite;
+  font-weight: 500;
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.quotelayer b{
+  background-color: #003097;
+  text-align: end;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.signupbtn button{
+  color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3e84f3;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.signuplayer{
+  background-color:#003097 ;
+  margin: 50px 200px;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+}
+
+.signuplayer:hover{
+  box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -webkit-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+  -moz-box-shadow: 10px 2px 56px 0px rgba(8,0,184,0.75);
+}
+
+.signuptext{
+  background-color: #003097;
+  text-align: center;
+  
+}
+
+.signuptext p,h3{
+  background-color: #003097;
+}
+
+.footer {
+  background-color: #0066f5;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-align: center;
+}
